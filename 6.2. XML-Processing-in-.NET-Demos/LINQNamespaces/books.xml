@@ -8,8 +8,8 @@
     <publisher xmlns="http://publishers.org">Manning</publisher>
   </book>
   <book xmlns="http://linqinaction.net">
-    <title>Silverlight in Action</title>
-    <author>Pete Brown</author>
-    <publisher xmlns="http://publishers.org">Manning</publisher>
+    <title>Beginning XML, 5th Edition</title>
+    <author>Joe Fawcett, Danny Ayers, Liam R. E. Quin</author>
+    <publisher xmlns="http://publishers.org">Wrox</publisher>
   </book>
 </books>

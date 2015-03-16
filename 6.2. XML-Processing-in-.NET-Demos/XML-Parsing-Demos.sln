@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. DOM-Parser", "DOMParser\1. DOM-Parser.csproj", "{BD4B3912-DBDC-42BC-8992-2363E00786AB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. Modifing-XML-With-DOM", "Modifing-XML-With-DOM\2. Modifing-XML-With-DOM.csproj", "{A043A7CC-6463-4E33-847B-BCE2500A2D77}"
@@ -13,11 +15,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5. XPath-Demo", "XPathDemo\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9. XSL-Transformations", "XSL Transform\9. XSL-Transformations.csproj", "{FCBE1F31-E838-4F8D-8602-862856618B93}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6. CreatingDocs-LINQ-to-XML", "CreatingDocumentLINQToXML\6. CreatingDocs-LINQ-to-XML.csproj", "{FBDE8A3C-D303-4AD0-AC19-1C516141B9B1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7. CreatingDocs-LINQ-to-XML", "CreatingDocumentLINQToXML\7. CreatingDocs-LINQ-to-XML.csproj", "{FBDE8A3C-D303-4AD0-AC19-1C516141B9B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8. LINQ-Namespaces", "LINQNamespaces\8. LINQ-Namespaces.csproj", "{E5FC104C-7148-4B85-B104-23F6ABEE4680}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8. LINQ-to-XML-Namespaces", "LINQNamespaces\8. LINQ-to-XML-Namespaces.csproj", "{E5FC104C-7148-4B85-B104-23F6ABEE4680}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9. Searching-with-LINQ", "SearchingWithLINQ\9. Searching-with-LINQ.csproj", "{72BE5252-2EE7-44E0-A893-336C34DA7261}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6. Searching-with-LINQ", "SearchingWithLINQ\6. Searching-with-LINQ.csproj", "{72BE5252-2EE7-44E0-A893-336C34DA7261}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

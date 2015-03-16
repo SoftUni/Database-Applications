@@ -1,14 +1,17 @@
 <?xml version="1.0"?>
-<?xml-stylesheet type="text/xsl" href="library-xml2html.xsl"?>
-<library name=".NET Developer's Library">
-	<book>
-		<title>Professional C# 4.0 and .NET 4</title>
-		<author>Christian Nagel</author>
-		<isbn>978-0-470-50225-9</isbn>
-	</book>
-	<book>
-		<title>Silverlight in Action</title>
-		<author>Pete Brown</author>
-		<isbn>978-1-935182-37-5</isbn>
-	</book>
+
+<library name="Developer's Library">
+  
+  <book>
+    <title>Professional C# 4.0 and .NET 4</title>
+    <author>Christian Nagel</author>
+    <isbn>978-0-470-50225-9</isbn>
+  </book>
+  
+  <book>
+    <title>Teach Yourself XML in 10 Minutes</title>
+    <author>Andrew H. Watt</author>
+    <isbn>978-0-672-32471-0</isbn>
+  </book>
+  
 </library>

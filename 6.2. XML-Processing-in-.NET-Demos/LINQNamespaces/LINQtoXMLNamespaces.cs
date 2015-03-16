@@ -1,4 +1,4 @@
-﻿using System.Linq;
+﻿using System;
 using System.Xml.Linq;
 
 class LINQtoXMLNamespaces
@@ -6,28 +6,27 @@ class LINQtoXMLNamespaces
     static void Main(string[] args)
     {
         XNamespace ns = "http://linqinaction.net";
-        XNamespace anotherNS = "http://publishers.org";
+        XNamespace anotherNs = "http://publishers.org";
 
-        XElement booksXml = new XElement(
-            XName.Get("books", "http://bookstore.org"));
-        XElement bookLINQ = new XElement(ns + "book",
+        var books = new XElement(XName.Get("books", "http://bookstore.org"));
+        var bookLinq = new XElement(ns + "book",
             new XElement(ns + "title", "LINQ in Action"),
             new XElement(ns + "author", "Manning"),
             new XElement(ns + "author", "Steve Eichert"),
             new XElement(ns + "author", "Jim Wooley"),
-            new XElement(anotherNS + "publisher", "Manning")
+            new XElement(anotherNs + "publisher", "Manning")
         );
-        booksXml.Add(bookLINQ);
+        books.Add(bookLinq);
 
-        XElement bookSilverlight = new XElement(ns + "book",
-            new XElement(ns + "title", "Silverlight in Action"),
-            new XElement(ns + "author", "Pete Brown"),
-            new XElement(anotherNS + "publisher", "Manning")
+        var bookXml = new XElement(ns + "book",
+            new XElement(ns + "title", "Beginning XML, 5th Edition"),
+            new XElement(ns + "author", "Joe Fawcett, Danny Ayers, Liam R. E. Quin"),
+            new XElement(anotherNs + "publisher", "Wrox")
         );
-        booksXml.Add(bookSilverlight);
+        books.Add(bookXml);
 
-        System.Console.WriteLine(booksXml);
+        Console.WriteLine(books);
 
-        booksXml.Save("../../books.xml");
+        books.Save("../../books.xml");
     }
 }

@@ -28,7 +28,8 @@ class XmlWriterDemo
         Console.WriteLine("Document {0} created.", fileName);
     }
 
-    private static void WriteBook(XmlWriter writer, string title, string author, string isbn)
+    private static void WriteBook(
+        XmlWriter writer, string title, string author, string isbn)
     {
         writer.WriteStartElement("book");
         writer.WriteElementString("title", title);
