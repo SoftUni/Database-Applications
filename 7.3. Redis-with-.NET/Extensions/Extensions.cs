@@ -11,7 +11,6 @@
 
     public static class Extensions
     {
-
         public static void Print(this IEnumerable collection)
         {
             Console.WriteLine("-".Repeat(50));
@@ -22,7 +21,6 @@
             }
 
             Console.WriteLine("-".Repeat(50));
-
         }
 
         public static void Print<T>(this IEnumerable<T> collection)
@@ -42,7 +40,6 @@
         {
             Console.WriteLine(str);
         }
-
 
         public static string Repeat(this string str, int count)
         {

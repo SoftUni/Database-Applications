@@ -45,7 +45,7 @@
                 Deadline = DateTime.Now.AddDays(2),
                 AssignedTo = new User()
                 {
-                    Name = "Doncho"
+                    Name = "Nakov"
                 },
                 IsDone = false
             };
@@ -77,7 +77,7 @@
                 IsDone = false,
                 AssignedTo = new User()
                 {
-                    Name = "Doncho"
+                    Name = "Nakov"
                 }
             };
 
