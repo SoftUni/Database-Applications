@@ -36,9 +36,7 @@
 
             var update = Update.Set("Text", "Changed Text at " + DateTime.Now);
 
-
-            var query = Query.And(
-                Query.LT("LogDate", DateTime.Now.AddSeconds(-1)));
+            var query = Query.And(Query.LT("LogDate", DateTime.Now.AddSeconds(-1)));
 
             logs.Update(query, update);
 
@@ -47,5 +45,4 @@
                 .Print();
         }
     }
-
 }
