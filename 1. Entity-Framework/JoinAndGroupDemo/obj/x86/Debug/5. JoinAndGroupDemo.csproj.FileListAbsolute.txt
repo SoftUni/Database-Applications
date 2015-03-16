@@ -1,0 +1,10 @@
+E:\Courses\Database Applications\Demos\1. Entity-Framework\JoinAndGroupDemo\bin\Debug\JoinAndGroupDemo.exe.config
+E:\Courses\Database Applications\Demos\1. Entity-Framework\JoinAndGroupDemo\bin\Debug\JoinAndGroupDemo.exe
+E:\Courses\Database Applications\Demos\1. Entity-Framework\JoinAndGroupDemo\bin\Debug\JoinAndGroupDemo.pdb
+E:\Courses\Database Applications\Demos\1. Entity-Framework\JoinAndGroupDemo\bin\Debug\EntityFramework.dll
+E:\Courses\Database Applications\Demos\1. Entity-Framework\JoinAndGroupDemo\bin\Debug\UsingEntityFrameworkModel.dll
+E:\Courses\Database Applications\Demos\1. Entity-Framework\JoinAndGroupDemo\bin\Debug\UsingEntityFrameworkModel.pdb
+E:\Courses\Database Applications\Demos\1. Entity-Framework\JoinAndGroupDemo\bin\Debug\EntityFramework.xml
+E:\Courses\Database Applications\Demos\1. Entity-Framework\JoinAndGroupDemo\obj\x86\Debug\5. JoinAndGroupDemo.csprojResolveAssemblyReference.cache
+E:\Courses\Database Applications\Demos\1. Entity-Framework\JoinAndGroupDemo\obj\x86\Debug\JoinAndGroupDemo.exe
+E:\Courses\Database Applications\Demos\1. Entity-Framework\JoinAndGroupDemo\obj\x86\Debug\JoinAndGroupDemo.pdb

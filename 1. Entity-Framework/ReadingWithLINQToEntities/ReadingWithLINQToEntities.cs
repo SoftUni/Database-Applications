@@ -1,6 +1,7 @@
 namespace ReadingWithLINQToEntities
 {
     using System;
+    using System.Data;
     using System.Linq;
 
     using UsingEntityFrameworkModel;
@@ -9,6 +10,11 @@ namespace ReadingWithLINQToEntities
     {
         public static void Main()
         {
+            var softUniContext = new SoftUniEntities();
+            var customer = new Town() { TownID = 3 };
+            softUniContext.Entry(customer).State = EntityState.Deleted;
+            softUniContext.SaveChanges();
+
             SelectFromSingleTable();
             SelectFromMultipleTables();
         }

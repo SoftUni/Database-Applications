@@ -1,0 +1,10 @@
+E:\Courses\Database Applications\Demos\1. Entity-Framework\UpdatingDeletingInsertingData\bin\Debug\UpdatingDeletingInsertingData.exe.config
+E:\Courses\Database Applications\Demos\1. Entity-Framework\UpdatingDeletingInsertingData\bin\Debug\UpdatingDeletingInsertingData.exe
+E:\Courses\Database Applications\Demos\1. Entity-Framework\UpdatingDeletingInsertingData\bin\Debug\UpdatingDeletingInsertingData.pdb
+E:\Courses\Database Applications\Demos\1. Entity-Framework\UpdatingDeletingInsertingData\bin\Debug\EntityFramework.dll
+E:\Courses\Database Applications\Demos\1. Entity-Framework\UpdatingDeletingInsertingData\bin\Debug\UsingEntityFrameworkModel.dll
+E:\Courses\Database Applications\Demos\1. Entity-Framework\UpdatingDeletingInsertingData\bin\Debug\UsingEntityFrameworkModel.pdb
+E:\Courses\Database Applications\Demos\1. Entity-Framework\UpdatingDeletingInsertingData\bin\Debug\EntityFramework.xml
+E:\Courses\Database Applications\Demos\1. Entity-Framework\UpdatingDeletingInsertingData\obj\x86\Debug\3. UpdatingDeletingInsertingData.csprojResolveAssemblyReference.cache
+E:\Courses\Database Applications\Demos\1. Entity-Framework\UpdatingDeletingInsertingData\obj\x86\Debug\UpdatingDeletingInsertingData.exe
+E:\Courses\Database Applications\Demos\1. Entity-Framework\UpdatingDeletingInsertingData\obj\x86\Debug\UpdatingDeletingInsertingData.pdb

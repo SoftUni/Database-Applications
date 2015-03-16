@@ -1,0 +1,9 @@
+E:\Courses\Database Applications\Demos\1. Entity-Framework\AttachDetachEntities\bin\Debug\AttachDetachEntities.exe.config
+E:\Courses\Database Applications\Demos\1. Entity-Framework\AttachDetachEntities\bin\Debug\AttachDetachEntities.exe
+E:\Courses\Database Applications\Demos\1. Entity-Framework\AttachDetachEntities\bin\Debug\AttachDetachEntities.pdb
+E:\Courses\Database Applications\Demos\1. Entity-Framework\AttachDetachEntities\bin\Debug\EntityFramework.dll
+E:\Courses\Database Applications\Demos\1. Entity-Framework\AttachDetachEntities\bin\Debug\UsingEntityFrameworkModel.dll
+E:\Courses\Database Applications\Demos\1. Entity-Framework\AttachDetachEntities\bin\Debug\UsingEntityFrameworkModel.pdb
+E:\Courses\Database Applications\Demos\1. Entity-Framework\AttachDetachEntities\bin\Debug\EntityFramework.xml
+E:\Courses\Database Applications\Demos\1. Entity-Framework\AttachDetachEntities\obj\x86\Debug\AttachDetachEntities.exe
+E:\Courses\Database Applications\Demos\1. Entity-Framework\AttachDetachEntities\obj\x86\Debug\AttachDetachEntities.pdb

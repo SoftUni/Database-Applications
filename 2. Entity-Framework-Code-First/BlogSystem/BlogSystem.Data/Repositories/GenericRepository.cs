@@ -45,6 +45,11 @@
             return entity;
         }
 
+        public void Delete(object id)
+        {
+            
+        }
+
         public void Delete(T entity)
         {
             this.ChangeState(entity, EntityState.Deleted);
