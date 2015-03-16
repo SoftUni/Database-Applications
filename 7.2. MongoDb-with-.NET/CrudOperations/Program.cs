@@ -31,7 +31,7 @@
             };
 
             logsCollection.InsertBatch(logsToInsert);
-
+            
             var logs = logsCollection.FindAll();
 
             logs.Print();

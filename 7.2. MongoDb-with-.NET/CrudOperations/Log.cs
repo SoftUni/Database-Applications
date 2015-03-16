@@ -20,5 +20,10 @@
         public string Text { get; set; }
 
         public DateTime LogDate { get; set; }
+
+        public override string ToString()
+        {
+            return string.Format("Id: {0}, Text: {1}, LogDate: {2}", this.Id, this.Text, this.LogDate);
+        }
     }
 }
