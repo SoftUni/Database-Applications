@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. RedisAndDotNet", "RedisAndDotNet\1. RedisAndDotNet.csproj", "{3D54A80A-CAC9-4507-BA3F-6638BF9F00A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extensions", "Extensions\Extensions.csproj", "{18CDBE71-5E0E-412E-8C63-A558A34201C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. RedisClients", "RedisClients\2. RedisClients.csproj", "{14E32AF4-10B0-475E-A66F-7614FA2452D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.Models", "Demo.Models\Demo.Models.csproj", "{116C0F1C-3DA5-41AE-80B0-D1836FE566C1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D54A80A-CAC9-4507-BA3F-6638BF9F00A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D54A80A-CAC9-4507-BA3F-6638BF9F00A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D54A80A-CAC9-4507-BA3F-6638BF9F00A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D54A80A-CAC9-4507-BA3F-6638BF9F00A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18CDBE71-5E0E-412E-8C63-A558A34201C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18CDBE71-5E0E-412E-8C63-A558A34201C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18CDBE71-5E0E-412E-8C63-A558A34201C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18CDBE71-5E0E-412E-8C63-A558A34201C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14E32AF4-10B0-475E-A66F-7614FA2452D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14E32AF4-10B0-475E-A66F-7614FA2452D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14E32AF4-10B0-475E-A66F-7614FA2452D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14E32AF4-10B0-475E-A66F-7614FA2452D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{116C0F1C-3DA5-41AE-80B0-D1836FE566C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{116C0F1C-3DA5-41AE-80B0-D1836FE566C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{116C0F1C-3DA5-41AE-80B0-D1836FE566C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{116C0F1C-3DA5-41AE-80B0-D1836FE566C1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
