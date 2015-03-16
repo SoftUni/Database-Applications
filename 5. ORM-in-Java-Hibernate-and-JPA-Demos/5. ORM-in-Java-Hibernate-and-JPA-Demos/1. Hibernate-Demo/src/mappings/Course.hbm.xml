@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="model.Course" table="COURSES">
+
+		<id name="courseId" column="COURSEID" >
+			<generator class="identity" />
+		</id>
+		
+		<property name="name" column="COURSENAME" />
+		
+		<many-to-one name="professor" class="model.Professor" column="PROFESSORID" />
+
+		<many-to-one name="department" class="model.Department" column="DEPTID" />
+
+		<set name="students" table="COURSESSTUDENTS">
+			<key column="COURSEID" />
+			<many-to-many class="model.Student" column="STUDENTID" />
+		</set>
+			
+	</class>
+</hibernate-mapping>

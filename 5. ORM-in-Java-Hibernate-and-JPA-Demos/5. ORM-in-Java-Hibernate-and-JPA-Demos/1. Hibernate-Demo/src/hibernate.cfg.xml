@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+    "-//Hibernate/Hibernate Configuration DTD//EN"
+    "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+	<session-factory>
+		<!-- Database connection settings -->
+		<property name="dialect">org.hibernate.dialect.MySQLDialect</property>
+		<property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+		<property name="connection.url">jdbc:mysql://localhost/university</property>
+		<property name="connection.username">root</property>
+		<property name="connection.password"></property>	
+		
+		<!-- Enable / disable the tracing of all SQL commands -->
+        <property name="show_sql">false</property>
+        
+		<!-- Hibernate mappings references -->
+		<mapping resource="mappings/Person.hbm.xml" />
+		<mapping resource="mappings/Student.hbm.xml" />
+		<mapping resource="mappings/Professor.hbm.xml" />
+		<mapping resource="mappings/Department.hbm.xml" />
+		<mapping resource="mappings/Course.hbm.xml" />
+	</session-factory>
+</hibernate-configuration>

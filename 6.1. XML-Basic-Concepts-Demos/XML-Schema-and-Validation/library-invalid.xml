@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<library xmlns="http://www.nakov.com/schemas/library"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.nakov.com/schemas/library file://./library.xsd"
+  name="Developer's Library">
+	<book>
+		<isbn>978-0-470-50225-9</isbn>
+		<author>Christian Nagel</author>
+		<title>Professional C# 4.0 and .NET 4</title>
+	</book>
+	<book>
+		<author-name>Andrew H. Watt</author-name>
+		<isbn>978-0-672-32471-0</isbn>
+		<title>Teach Yourself XML in 10 Minutes</title>
+	</book>
+</library>

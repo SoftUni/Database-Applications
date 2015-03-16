@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<escaped-tags>
+  <special-characters>
+    &quot;&#169; 2015 &#x2122;&quot;
+    &amp; &apos;A&#9827;&apos; &lt;xml&gt;
+  </special-characters>
+  
+  <script>
+    <![CDATA[
+      function compare(a, b) {
+        if (a < 0 && b < 0) {
+          return "a & b < 0";
+        } else {
+          return 'a & b >= 0';
+        }
+      }
+      alert(compare(1, 2));
+    ]]>
+  </script>
+</escaped-tags>

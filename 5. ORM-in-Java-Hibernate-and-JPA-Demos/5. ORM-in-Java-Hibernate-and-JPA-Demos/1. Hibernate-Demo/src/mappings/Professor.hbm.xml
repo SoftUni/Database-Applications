@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<joined-subclass name="model.Professor" table="PROFESSORS"
+		extends="model.Person">
+
+		<key column="PROFESSORID" />
+
+		<property name="Title" column="TITLE" />
+
+		<set name="departments" table="DEPARTMENTSPROFESSORS">
+			<key column="PROFESSORID" />
+			<many-to-many class="model.Department" column="DEPTID" />
+		</set>
+
+		<set name="courses" table="COURSES">
+			<key column="PROFESSORID" />
+			<one-to-many class="model.Course" />
+		</set>
+
+	</joined-subclass>
+</hibernate-mapping>
