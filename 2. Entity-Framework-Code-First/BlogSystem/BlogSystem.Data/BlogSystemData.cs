@@ -34,12 +34,12 @@
 
         public IRepository<Comment> Comments
         {
-            get { return this.GetRepository<Comment>(); }
+            get { return new GenericRepository<Comment>(this.context); }
         }
 
         public IRepository<Tag> Tags
         {
-            get { return this.GetRepository<Tag>(); }
+            get { return new GenericRepository<Tag>(this.context); }
         }
 
         public int SaveChanges()
